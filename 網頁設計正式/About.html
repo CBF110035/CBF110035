@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>聯絡我們</title>
+  <link rel="stylesheet" href="About.css" type="text/css">
+  <script src="About.js"></script>
+  <style>
+  input:focus {background-color: red;}
+  input:active {background-color: pink;}
+  [type="submit"] {background-color: yellow;}
+  </style>
+  <script>
+    function showResponse() {
+      alert("已收到回覆，感謝您的訊息！");
+    }
+  </script>
+</head>
+<body>
+
+  <div class="navigation">
+    <a href="憶萱的網頁.html">❤Index</a>
+    <a href="CBF110035.html">❤Siri</a>
+    <a href="new.html">❤Google</a>
+    <a href="About.html">❤About us</a>
+  </div>
+  
+  <h1>聯絡我們</h1>
+  
+  <form onsubmit="showResponse()">
+    <p>您的姓名：</p>
+    <input type="text" name="name" required>
+
+    <p>您的電子郵件地址：</p>
+    <input type="email" name="email" required>
+
+    <p>您的訊息主題：</p>
+    <select name="subject">
+      <option value="general">一般查詢</option>
+      <option value="support">技術支援</option>
+      <option value="billing">帳單相關</option>
+      <option value="feedback">意見回饋</option>
+    </select>
+
+    <p>您的訊息內容：</p>
+    <textarea name="message" rows="4" cols="50" required></textarea>
+
+    <p>您選擇的聯絡方式：</p>
+    <ul>
+      <li><input type="checkbox" name="contact_method" value="email">電子郵件</li>
+      <li><input type="checkbox" name="contact_method" value="phone">電話</li>
+      <li><input type="checkbox" name="contact_method" value="mail">郵寄</li>
+    </ul>
+
+
+    <input type="submit" value="提交">
+  </form>
+  
+  <video class="background-video" src="愛心.mp4" autoplay loop muted></video>
+  <br>
+  <br>
+  <footer class="footer">
+    <p>&copy; CBF110033郭憶萱 CBF110035王珮瑩 CBF110039 陳妍蓁 有限公司</p>
+  </footer>
+  
+  
+</body>
+</html>

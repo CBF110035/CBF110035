@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="CBF110035.css">
+<script src="CBF110035.js"></script>
+<title>SIRI</title>
+
+ <style>
+    body {
+      text-align: center;
+      background: black;
+    }
+    h1 {
+      text-transform: uppercase;
+      font-size: 100px;
+      font-family: 'Neon', cursive;
+      padding: 30px;
+      text-shadow: 0px 0px 0px rgba(0, 0, 0, 0); /* 初始阴影设置为透明 */
+    }
+  </style>
+
+</head>
+
+<body>
+
+<div class="navigation">
+    <a href="憶萱的網頁.html">❤Index</a>
+    <a href="CBF110035.html">❤Siri</a>
+    <a href="new.html">❤Google</a>
+    <a href="About.html">❤About us</a>
+</div>
+
+<div class="history-counter">瀏覽歷史紀錄：<span id="historyCount"></span> 筆</div>
+
+
+
+<h1 id="siri">SIRI</h1>
+
+  <script>
+    document.addEventListener('mousemove', function(e) {
+      var h1Element = document.getElementById('siri');
+      var rXP = (e.pageX - h1Element.offsetLeft - (h1Element.offsetWidth / 2));
+      var rYP = (e.pageY - h1Element.offsetTop - (h1Element.offsetHeight / 2));
+      h1Element.style.textShadow = rYP / 10 + 'px ' + rXP / 80 + 'px rgba(227, 6, 19, .8), ' +
+                                   rYP / 8 + 'px ' + rXP / 60 + 'px rgba(255, 237, 0, 1), ' +
+                                   rXP / 70 + 'px ' + rYP / 12 + 'px rgba(0, 159, 227, .7)';
+    });
+  </script>
+
+
+ <center> <h2 style="width: 1200px; background-color: #A6A6D2; box-shadow: 5px 10px 5px lightgray;">
+    <marquee behavior="scroll" direction="left">你說一聲，日常大小事就完成。而且這位智慧助理，能做到最好的隱私保護。</marquee>
+  </h2>
+</center>
+<br><br>
+
+ 
+ <center> <div class="left-column">
+    <p><h2>什麼是SIRI</h2>Siri 就是 iOS 系統內建的“語音助理”。<br>你可以直接用說話的方式來命令你的手機做許多的動作，像是：打電話、傳簡訊、開啟 App、設定鬧鐘、問路、問時間、不必動手也能速查 Google 與維基百科，或甚至跟他聊天談心談人生等等等…數不清的功能，在 iPhone 上，只要你“出一張嘴”，Siri 都能夠確切地回答你，或是完成你所想要他做的任務呢！
+  </p></div>
+  <div class="right-column">
+     <p><h2>我可以問SIRI些什麼</h2>基本上，其實什麼都能夠說！<br>像是問 Siri：「你是誰？」、「外面天氣如何？」、「台積電今天的股價」、「歐巴馬今年幾歲了？」這些問題，他都會回答你，就算是再怪的問題也一樣。<br>當然，Siri 本身也給你了許多指引，如果你想更瞭解他能夠做些什麼的話，只要點一下左下角的“問號”圖示就可以了。</p>
+  </div></center>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ 
+  <center><h2 id="siri-title"><i>iPhone 上的 Siri 可以做哪些事</i></h2>
+  
+  <ul>
+  <li id="siri-question"><b><mark>使用 Siri 來回答問題</b></mark>
+    <p>使用 Siri 來快速核查事實、進行計算或將詞語翻譯成另一種語言。你可以這樣說：</p>
+    <ol>
+      <li>「嘿 Siri，在維基百科上尋找彩虹」</li>
+      <li>「嘿 Siri，貓怎麼叫？」</li>
+      <li>「Hey Siri, what’s the derivative of cosine x?」</li>
+      <li>「Hey Siri, how do you say Thank You in Mandarin?」</li>
+    </ol>
+  </li>
+  <li id="siri-app"><b><mark>搭配 App 使用 Siri</b></mark>
+    <p>你可以使用 Siri 來透過你的語音控制 App。你可以這樣說：</p>
+    <ol>
+      <li>「嘿 Siri，早上九點要跟健行開會」，在「行事曆」中製作行程。</li>
+      <li>「嘿 Siri，把牛奶加入我的購物清單」，將某個項目加入「提醒事項」。</li>
+      <li>「嘿 Siri，傳訊息給伯鈞說我愛你愛心表情符號」，使用「訊息」傳送簡訊。</li>
+      <li>「嘿 Siri，我有什麼更新？」，取得你所在地區的天氣、新聞、提醒事項和行事曆行程等。</li>
+    </ol>
+  </li>
+  <li id="siri-sharing"><b><mark>使用 Siri 與聯絡人分享資訊</b></mark>
+    <p>你可以與聯絡人中的人員分享螢幕上的項目，例如照片、網頁、來自 Apple Music 或 Apple Podcast 的內容、地圖位置等。例如，查看照片圖庫中的照片時，可以這樣說「嘿 Siri，傳送這個給媽媽」，以製作包含照片的新訊息。</p>
+  </li>
+  <li id="siri-personalize"><b><mark>用 Siri 個人化你的體驗</b></mark>
+    <p>你越常使用 Siri，它便越瞭解你的需求。你也可以告訴 Siri 有關你的個人資訊並更改 Siri 回應的方式和時間。</p>
+  </li>
+</ul></center>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<center><h2 id="siri-how" style="width: 1200px; background-image: linear-gradient(to right, #FF00FF, #00FFFF); animation: blink 1s infinite;">
+如何使用 Siri
+</h2></center>
+<br><br>
+<center>
+<a href="https://www.cwb.gov.tw/V8/C/" target="_blank">
+  <img src="天氣.png" width="190" alt="天氣圖片" title="查詢天氣">
+</a>
+
+
+<a href="https://www.google.com.tw/maps/@?hl=zh-TW" target="_blank">
+  <img src="地點.png" width="190" alt="地點圖片" title="尋找地點">
+</a>
+
+
+<a href="https://www.taiwanbus.tw/" target="_blank">
+  <img src="路線.png" width="190" alt="路線圖片" title="取得路線">
+</a>
+
+
+<a href="https://tw.news.yahoo.com/" target="_blank">
+  <img src="新聞.png" width="190" alt="新聞圖片" title="取得最新的新聞">
+</a>
+
+
+<a href="https://sports.ltn.com.tw/" target="_blank">
+  <img src="體育.png" width="190" alt="體育圖片" title="掌握最新體育消息">
+</a>
+
+
+<a href="https://www.plus500.com/zh/Trading/Stocks?ncc=true&id=4711&tags=bi_sr+110794509_cpi+WorldChinese2Search_cp+1588156372_agi+Stocks.Stocks_agn+%E8%82%A1%E7%A5%A8_ks+kwd-75729104554388:loc-40_tid+be_mt+c_de+o_nt+_ext+40_loc+UURL&%D7%90&msclkid=1ae29ba974491ef8bed8ffd4d82929ed&utm_source=bing&utm_medium=cpc&utm_campaign=WorldChinese2Search&utm_term=%E8%82%A1%E7%A5%A8&utm_content=Stocks.Stocks" target="_blank">
+  <img src="股票.png" width="190" alt="股票圖片" title="查詢股票">
+</a></center>
+<br>
+
+
+  <footer class="footer">
+    <p>&copy; CBF110033郭憶萱 CBF110035王珮瑩 CBF110039 陳妍蓁 有限公司</p>
+  </footer>
+
+    
+ 
+
+
+
+
+
+
+</body>
+</html>
